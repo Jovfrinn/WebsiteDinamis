@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.contact {
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+}
+.contact .content {
+  max-width: 800px;
+  text-align: center;
+}
+.contact .content h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #db37c5;
+}
+.contact .content h2 {
+  font-weight: 300;
+  color: #000000;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 30px;
+}
+.container .ContactInfo {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.container .ContactInfo .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+.container .ContactInfo .box .icon {
+  min-width: 60px;
+  height: 60px;
+  background: #bfa290;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+.container .ContactInfo .box .icon .text {
+  text-align: center;
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #981b81;
+  flex-direction: column;
+  font-weight: 300;
+}
+.container .ContactInfo .box .icon .text h3 {
+  font-weight: 500;
+  color: #00bcd4;
+}
+.ContactFrom {
+  /* display: flex; */
+  width: 90%;
+  padding-left: 110px;
+  background: #ffffff;
+}
+.ContactFrom h2 {
+  display: flex;
+  font-size: 30px;
+  font-weight: 500;
+  color: #333;
+}
+.ContactFrom .InputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.ContactFrom .InputBox input,
+.ContactFrom .InputBox textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+.ContactFrom .InputBox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+.ContactFrom .InputBox input:focus ~ span,
+.ContactFrom .InputBox input:valid ~ span,
+.ContactFrom .InputBox textarea:focus ~ span,
+.ContactFrom .InputBox textarea:valid ~ span {
+  color: #e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+.ContactFrom .InputBox input[type="Submit"] {
+  text-align: center;
+  width: 100px;
+  background: #2b1700;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
