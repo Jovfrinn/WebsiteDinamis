@@ -13,9 +13,8 @@
   gap: 50px;
 }
 
-.container {
+.containerAbia {
   text-align: center;
-  
 }
 
 .cookies {
@@ -42,13 +41,12 @@
 }
 
 .card {
-  overflow: hidden  ;
+  overflow: hidden;
   border: 1px solid grey;
   padding: 8px;
   border-radius: 12px;
   background-color: #fff;
-  box-shadow: -2px 3px 17px -10px rgba(0,0,0,0.75);
-
+  box-shadow: -2px 3px 17px -10px rgba(0, 0, 0, 0.75);
 }
 
 .sosialButton {
@@ -72,6 +70,5 @@
 }
 
 .instagramButton:hover {
-  background-color: #121317; 
+  background-color: #121317;
 }
-

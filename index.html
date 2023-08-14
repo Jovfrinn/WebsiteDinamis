@@ -7,7 +7,13 @@
 
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-
+    <!-- css Home -->
+    <link rel="stylesheet" href="home.css" />
+    <!-- css About -->
+    <link rel="stylesheet" href="styleAbout.css" />
+    <!-- css Contact -->
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Website Dinamis</title>
   </head>
   <body>
@@ -21,41 +27,161 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#About">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Contact">Contact</a>
+              <a class="nav-link" href="contactA.html">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- Akhir Navbar -->
-
+    <div class="gelombang">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#24262b"
+          fill-opacity="0.2"
+          d="M0,192L10.9,202.7C21.8,213,44,235,65,245.3C87.3,256,109,256,131,261.3C152.7,267,175,277,196,261.3C218.2,245,240,203,262,181.3C283.6,160,305,160,327,144C349.1,128,371,96,393,106.7C414.5,117,436,171,458,176C480,181,502,139,524,138.7C545.5,139,567,181,589,165.3C610.9,149,633,75,655,85.3C676.4,96,698,192,720,240C741.8,288,764,288,785,293.3C807.3,299,829,309,851,298.7C872.7,288,895,256,916,234.7C938.2,213,960,203,982,208C1003.6,213,1025,235,1047,213.3C1069.1,192,1091,128,1113,90.7C1134.5,53,1156,43,1178,48C1200,53,1222,75,1244,112C1265.5,149,1287,203,1309,208C1330.9,213,1353,171,1375,154.7C1396.4,139,1418,149,1429,154.7L1440,160L1440,0L1429.1,0C1418.2,0,1396,0,1375,0C1352.7,0,1331,0,1309,0C1287.3,0,1265,0,1244,0C1221.8,0,1200,0,1178,0C1156.4,0,1135,0,1113,0C1090.9,0,1069,0,1047,0C1025.5,0,1004,0,982,0C960,0,938,0,916,0C894.5,0,873,0,851,0C829.1,0,807,0,785,0C763.6,0,742,0,720,0C698.2,0,676,0,655,0C632.7,0,611,0,589,0C567.3,0,545,0,524,0C501.8,0,480,0,458,0C436.4,0,415,0,393,0C370.9,0,349,0,327,0C305.5,0,284,0,262,0C240,0,218,0,196,0C174.5,0,153,0,131,0C109.1,0,87,0,65,0C43.6,0,22,0,11,0L0,0Z"
+        ></path>
+      </svg>
+    </div>
+    <!-- Sejajar -->
     <!-- Home -->
-    <div>
-      <h1 id="Home">Selamat Datang Di Wonderland Cookies</h1>
+    <div class="containerAbia">
+      <img class="cookies" src="./images/cookies.jpg" alt="Cookie" />
+      <div class="font">
+        <h1 class="pertama">Welcome to Wonderland Cookies!</h1>
+        <br />
+        <h2>You can explore it</h2>
+        <h3>ENJOY!</h3>
+      </div>
+      <div class="containerImg">
+        <div class="card">
+          <img class="kuki" src="./images/ryan_gosling.jpg" alt="Cookie" />
+          <h3>Abia</h3>
+          <div class="sosialButton">
+            <a href="https://www.instagram.com/farrelabia/" class="instagramButton">Instagram</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="kuki" src="./images/febrino.jpg" alt="Cookie" />
+          <h3>Febrino</h3>
+          <div class="sosialButton">
+            <a href="https://www.instagram.com/feixle_f/" class="instagramButton">Instagram</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="kuki" src="./images/agisna.jpg" alt="Cookie" />
+          <h3>Agisna</h3>
+          <div class="sosialButton">
+            <a href="https://www.instagram.com/agsna.aa/" class="instagramButton">Instagram</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="kuki" src="./images/joprin.jpg" alt="Cookie" />
+          <h3>Jovfrin</h3>
+          <div class="sosialButton">
+            <a href="https://www.instagram.com/jovfrinn_/" class="instagramButton">Instagram</a>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Akhir Home -->
 
     <!-- About -->
-    <main>
-      <section>
-        <h2 id="About">About...</h2>
-        <p>Ini adalah tentang kami</p>
-      </section>
-    </main>
+    <section class="heor">
+      <div class="heading">
+        <h1>About</h1>
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <h2>Welcome</h2>
+          <p>
+            We are Wonderland Cookies Established since yesterday :D
+            <br />
+            We are dedicated to bringing the taste and cultural heritage of Indonesian traditional snacks to the public.
+            <br />
+            We believe that food is not just ordinary food,
+            <br />
+            but also a way to connect us as a society as well as culture.
+          </p>
+        </div>
+        <div class="hero-image">
+          <img src="image/upkue.jpg" />
+        </div>
+      </div>
+    </section>
     <!-- Akhir About -->
 
     <!-- Contact -->
-    <footer>
-      <h2 id="Contact">Contact</h2>
-      <p>+0218943489</p>
-      <p>@JAFACAKE</p>
-    </footer>
+    <section class="contact">
+      <div class="content">
+        <h2>Contact Us</h2>
+        <p>Tanyakan semua tentang produk dan layanan kami.</p>
+      </div>
+      <div class="container">
+        <div class="ContactInfo">
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-map-marker" aria-hidden="true" style="padding-top: 18px"></i>
+            </div>
+            <div class="text">
+              <h3>Adress</h3>
+              <p>Jl. Champ de Mars <br />5 Av. Anatole France<br />75007 Paris, Prancis</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-phone" aria-hidden="true" style="padding-top: 18px"></i>
+            </div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>+62-890-864-98</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-envelope" aria-hidden="true" style="padding-top: 18px"></i>
+            </div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>WonderlandCookies@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="ContactFrom">
+          <form>
+            <h2 class="text-center">Send Massage</h2>
+            <div class="InputBox">
+              <input typt="Text" name="" required="Required" />
+              <span>Full Name</span>
+            </div>
+            <div class="InputBox">
+              <input type="Text" name="" required="Required" />
+              <span>Email</span>
+            </div>
+            <div class="InputBox">
+              <textarea required="Required"></textarea>
+              <span>Input your Massage...</span>
+            </div>
+            <div class="InputBox">
+              <input type="Submit" name="" value="Send" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#273036"
+        fill-opacity="0.25"
+        d="M0,0L48,37.3C96,75,192,149,288,165.3C384,181,480,139,576,128C672,117,768,139,864,128C960,117,1056,75,1152,58.7C1248,43,1344,53,1392,58.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
     <!-- Akhir Contact -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
